@@ -1,9 +1,25 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Claymore",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "claymore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/firstmod/item/ClaymoreItem.java",
+          "src/main/resources/assets/first_mod/models/item/claymore.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.first_mod.claymore": "Claymore"
+    }
   },
   "foldersRoot": {
     "name": "~",
