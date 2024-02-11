@@ -1,9 +1,31 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Newarmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "newarmor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/first_mod/models/item/newarmor_helmet.json",
+          "src/main/resources/assets/first_mod/models/item/newarmor_chestplate.json",
+          "src/main/java/net/mcreator/firstmod/item/NewarmorItem.java",
+          "src/main/resources/assets/first_mod/models/item/newarmor_boots.json",
+          "src/main/resources/assets/first_mod/models/item/newarmor_leggings.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.first_mod.newarmor_boots": "Newarmor Boots",
+      "item.first_mod.newarmor_chestplate": "Newarmor Chestplate",
+      "item.first_mod.newarmor_helmet": "Newarmor Helmet",
+      "item.first_mod.newarmor_leggings": "Newarmor Leggings"
+    }
   },
   "foldersRoot": {
     "name": "~",
